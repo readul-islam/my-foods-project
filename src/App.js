@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Dataload from './component/Dataload/Dataload';
+import Dataloadone from './component/Dataloadone/Dataloadone';
+// import Display from './component/Display/Display';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Dataload></Dataload>
+    <Dataloadone></Dataloadone>
+    
     </div>
   );
 }
+
 
 export default App;
